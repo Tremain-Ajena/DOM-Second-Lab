@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btnClicked();
     })
 
-    function btnClicked () {
+    function btnClicked() {
         let sqHolder = document.createElement('div');
         sqHolder.className = 'squareHolder';
         let inText = document.createElement('div');
